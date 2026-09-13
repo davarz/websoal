@@ -1,0 +1,562 @@
+{
+  "sekolah": "SMKS PONCOL BANGKIT",
+  "program_keahlian": "Program Keahlian Rekayasa Perangkat Lunak (RPL)",
+  "judul": "SOAL UJIAN SEMESTER",
+  "mata_pelajaran": "Konsentrasi Keahlian",
+  "materi": "Pemrograman Web - Laravel (Routes, Controller, View, dan Migrations)",
+  "kelas": "XII (Dua Belas) - RPL",
+  "alokasi_waktu": "90 Menit",
+  "jumlah_soal": "25 butir (Pilihan Ganda)",
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Framework aplikasi web Laravel dibangun menggunakan bahasa pemrograman...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "PHP"
+        },
+        {
+          "label": "B",
+          "teks": "Python"
+        },
+        {
+          "label": "C",
+          "teks": "Java"
+        },
+        {
+          "label": "D",
+          "teks": "JavaScript"
+        }
+      ]
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Untuk membuat aplikasi Laravel baru, perintah terminal yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "laravel new nama-aplikasi"
+        },
+        {
+          "label": "B",
+          "teks": "laravel create nama-aplikasi"
+        },
+        {
+          "label": "C",
+          "teks": "php new laravel"
+        },
+        {
+          "label": "D",
+          "teks": "composer new laravel"
+        }
+      ]
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Alat bantu command-line resmi milik Laravel yang digunakan untuk menjalankan berbagai perintah pengembangan, misalnya membuat migration atau controller, disebut...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Artisan"
+        },
+        {
+          "label": "B",
+          "teks": "Composer"
+        },
+        {
+          "label": "C",
+          "teks": "Vite"
+        },
+        {
+          "label": "D",
+          "teks": "Blade"
+        }
+      ]
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Selain PHP, tools yang wajib terpasang terlebih dahulu di komputer sebelum membuat aplikasi Laravel pertama adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Composer"
+        },
+        {
+          "label": "B",
+          "teks": "Photoshop"
+        },
+        {
+          "label": "C",
+          "teks": "XAMPP saja tanpa PHP"
+        },
+        {
+          "label": "D",
+          "teks": "Node.js saja tanpa PHP"
+        }
+      ]
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Ketika baru dijalankan di lingkungan lokal, secara default aplikasi Laravel dapat diakses melalui browser pada alamat...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "http://localhost:8000"
+        },
+        {
+          "label": "B",
+          "teks": "http://localhost:3000"
+        },
+        {
+          "label": "C",
+          "teks": "http://localhost:80"
+        },
+        {
+          "label": "D",
+          "teks": "http://localhost:5000"
+        }
+      ]
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Pada pola MVC di Laravel, bagian yang bertanggung jawab menerima permintaan (request) serta menentukan tampilan atau data yang akan dikembalikan disebut...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Controller"
+        },
+        {
+          "label": "B",
+          "teks": "View"
+        },
+        {
+          "label": "C",
+          "teks": "Model"
+        },
+        {
+          "label": "D",
+          "teks": "Route"
+        }
+      ]
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Bagian pada Laravel yang berfungsi menentukan URL mana yang akan dijalankan oleh aplikasi disebut...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Routes"
+        },
+        {
+          "label": "B",
+          "teks": "Views"
+        },
+        {
+          "label": "C",
+          "teks": "Assets"
+        },
+        {
+          "label": "D",
+          "teks": "Middleware"
+        }
+      ]
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Pada Laravel, file berekstensi .blade.php berperan sebagai bagian...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "View (tampilan)"
+        },
+        {
+          "label": "B",
+          "teks": "Controller"
+        },
+        {
+          "label": "C",
+          "teks": "Model"
+        },
+        {
+          "label": "D",
+          "teks": "Migration"
+        }
+      ]
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Untuk membuat sebuah migration baru, perintah Artisan yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "php artisan make:migration"
+        },
+        {
+          "label": "B",
+          "teks": "php artisan make:controller"
+        },
+        {
+          "label": "C",
+          "teks": "php artisan make:view"
+        },
+        {
+          "label": "D",
+          "teks": "php artisan make:route"
+        }
+      ]
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Fungsi utama migrations pada Laravel adalah sebagai...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Sistem version control untuk struktur/skema basis data"
+        },
+        {
+          "label": "B",
+          "teks": "Sistem penyimpanan file gambar aplikasi"
+        },
+        {
+          "label": "C",
+          "teks": "Sistem autentikasi pengguna"
+        },
+        {
+          "label": "D",
+          "teks": "Sistem pengelolaan cache aplikasi"
+        }
+      ]
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Untuk menjalankan seluruh migration yang belum dieksekusi ke dalam basis data, perintah Artisan yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "php artisan migrate"
+        },
+        {
+          "label": "B",
+          "teks": "php artisan run"
+        },
+        {
+          "label": "C",
+          "teks": "php artisan build"
+        },
+        {
+          "label": "D",
+          "teks": "php artisan execute"
+        }
+      ]
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Facade pada Laravel yang digunakan untuk membuat dan memodifikasi tabel basis data secara ekspresif di dalam migration disebut...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Schema"
+        },
+        {
+          "label": "B",
+          "teks": "Route"
+        },
+        {
+          "label": "C",
+          "teks": "Auth"
+        },
+        {
+          "label": "D",
+          "teks": "Cache"
+        }
+      ]
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Sistem cache terdistribusi yang umum digunakan bersama Laravel untuk mendukung penskalaan aplikasi berskala besar adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Redis"
+        },
+        {
+          "label": "B",
+          "teks": "MySQL"
+        },
+        {
+          "label": "C",
+          "teks": "Blade"
+        },
+        {
+          "label": "D",
+          "teks": "Composer"
+        }
+      ]
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Sebuah migration Laravel umumnya memiliki dua method utama, yakni up() dan down(). Fungsi dari method up() adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Menghapus seluruh data pada tabel"
+        },
+        {
+          "label": "B",
+          "teks": "Menjalankan server pengembangan lokal"
+        },
+        {
+          "label": "C",
+          "teks": "Menambahkan tabel, kolom, atau index baru ke dalam basis data"
+        },
+        {
+          "label": "D",
+          "teks": "Menampilkan halaman error jika migration gagal"
+        }
+      ]
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Pada sebuah file migration Laravel, fungsi dari method down() adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Membuat tabel baru di basis data"
+        },
+        {
+          "label": "B",
+          "teks": "Menjalankan seluruh migration sekaligus"
+        },
+        {
+          "label": "C",
+          "teks": "Membalikkan (reverse) perubahan yang dilakukan oleh method up(), misalnya untuk proses rollback"
+        },
+        {
+          "label": "D",
+          "teks": "Menghapus file migration dari direktori"
+        }
+      ]
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Ada dua cara utama penggunaan Laravel, yaitu sebagai full stack framework atau sebagai...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Sistem operasi"
+        },
+        {
+          "label": "B",
+          "teks": "Text editor"
+        },
+        {
+          "label": "C",
+          "teks": "API backend untuk aplikasi SPA atau aplikasi mobile"
+        },
+        {
+          "label": "D",
+          "teks": "Basis data relasional"
+        }
+      ]
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Apabila Laravel digunakan sebagai full stack framework, tampilan frontend umumnya dirender dengan menggunakan...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "React murni tanpa Laravel"
+        },
+        {
+          "label": "B",
+          "teks": "File .css statis saja"
+        },
+        {
+          "label": "C",
+          "teks": "Blade templates atau teknologi hybrid seperti Inertia"
+        },
+        {
+          "label": "D",
+          "teks": "Node.js secara terpisah dari Laravel"
+        }
+      ]
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Sebuah tim developer hendak memastikan struktur basis data aplikasi mereka mudah dibagikan dan disinkronkan antaranggota tim tanpa harus menulis SQL manual satu per satu. Fitur Laravel yang paling tepat digunakan untuk kebutuhan tersebut adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Blade templates"
+        },
+        {
+          "label": "B",
+          "teks": "Routing"
+        },
+        {
+          "label": "C",
+          "teks": "Migrations, karena berfungsi sebagai version control untuk skema basis data"
+        },
+        {
+          "label": "D",
+          "teks": "Middleware"
+        }
+      ]
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Ketika Laravel berperan sebagai backend API bagi aplikasi SPA berbasis JavaScript, paket Laravel yang umum digunakan untuk menyediakan autentikasi adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Blade"
+        },
+        {
+          "label": "B",
+          "teks": "Artisan"
+        },
+        {
+          "label": "C",
+          "teks": "Laravel Sanctum"
+        },
+        {
+          "label": "D",
+          "teks": "Composer"
+        }
+      ]
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Cermati potongan kode migration berikut ini. Apabila perintah php artisan migrate:rollback dijalankan setelah migration ini pernah dieksekusi sebelumnya, maka yang akan terjadi adalah...\npublic function up() {\nSchema::create('produk', function (Blueprint $table) {\n$table->id();\n$table->string('nama');\n$table->timestamps();\n});\n}\npublic function down() {\nSchema::dropIfExists('produk');\n}",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Tabel produk akan otomatis terisi data baru"
+        },
+        {
+          "label": "B",
+          "teks": "Method down() akan dijalankan sehingga tabel produk akan dihapus (Schema::dropIfExists)"
+        },
+        {
+          "label": "C",
+          "teks": "Program akan gagal karena rollback tidak didukung Laravel"
+        },
+        {
+          "label": "D",
+          "teks": "Method up() akan dijalankan ulang tanpa perubahan apa pun"
+        }
+      ]
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Sebuah aplikasi memiliki route seperti berikut. Apabila pengguna mengakses alamat /produk/5, maka yang akan dilakukan Laravel adalah...\nRoute::get('/produk/{id}', [ProdukController::class, 'show']);",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Menjalankan method index() pada ProdukController"
+        },
+        {
+          "label": "B",
+          "teks": "Menjalankan method show() pada ProdukController dengan parameter id bernilai 5"
+        },
+        {
+          "label": "C",
+          "teks": "Menampilkan halaman error 404 karena route tidak valid"
+        },
+        {
+          "label": "D",
+          "teks": "Menjalankan seluruh method yang ada di dalam ProdukController"
+        }
+      ]
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Sebuah tim developer perlu menambahkan kolom baru bernama \"stok\" pada tabel produk yang sudah ada tanpa menghilangkan data yang sudah tersimpan. Langkah yang paling sesuai dengan konvensi Laravel untuk melakukannya adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Menghapus tabel produk lalu membuat ulang dari awal"
+        },
+        {
+          "label": "B",
+          "teks": "Membuat migration baru menggunakan Schema::table() untuk menambahkan kolom pada tabel yang sudah ada, lalu menjalankan php artisan migrate"
+        },
+        {
+          "label": "C",
+          "teks": "Mengedit langsung isi database melalui phpMyAdmin tanpa migration"
+        },
+        {
+          "label": "D",
+          "teks": "Mengubah nama file migration lama secara manual"
+        }
+      ]
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Nama setiap file migration Laravel selalu diawali dengan timestamp, misalnya 2026_01_15_000000_create_produk_table.php. Fungsi utama dari timestamp tersebut adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Menentukan ukuran maksimal tabel yang dibuat"
+        },
+        {
+          "label": "B",
+          "teks": "Menentukan urutan eksekusi migration, karena Laravel menjalankannya berdasarkan urutan waktu"
+        },
+        {
+          "label": "C",
+          "teks": "Menandai migration sebagai versi final"
+        },
+        {
+          "label": "D",
+          "teks": "Menentukan jenis basis data yang digunakan"
+        }
+      ]
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Sebuah aplikasi Laravel akan digunakan sebagai backend API bagi aplikasi mobile yang dibangun secara terpisah menggunakan Flutter. Pada skenario ini, peran Laravel yang paling tepat adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Sebagai full stack framework yang merender tampilan Blade langsung ke aplikasi mobile"
+        },
+        {
+          "label": "B",
+          "teks": "Sebagai API backend yang menyediakan autentikasi, penyimpanan, dan pengambilan data melalui endpoint yang dapat diakses aplikasi Flutter"
+        },
+        {
+          "label": "C",
+          "teks": "Sebagai pengganti Flutter untuk membangun tampilan mobile"
+        },
+        {
+          "label": "D",
+          "teks": "Laravel tidak dapat digunakan sama sekali untuk mendukung aplikasi mobile"
+        }
+      ]
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Perhatikan alur konvensi struktur MVC pada Laravel: permintaan pengguna diterima terlebih dahulu oleh Routes, lalu diteruskan ke Controller untuk diproses, dan hasilnya ditampilkan lewat View. Jika sebuah halaman menampilkan data yang keliru padahal Controller telah mengambil data dengan benar dari database, kemungkinan besar kesalahan tersebut terletak pada...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Migration, karena migration hanya berjalan sekali saat instalasi"
+        },
+        {
+          "label": "B",
+          "teks": "File View (Blade template), karena bagian inilah yang menentukan bagaimana data ditampilkan ke pengguna"
+        },
+        {
+          "label": "C",
+          "teks": "Routes, karena routes tidak berkaitan dengan tampilan data"
+        },
+        {
+          "label": "D",
+          "teks": "Artisan, karena artisan hanya digunakan untuk perintah terminal"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+{
+  "sekolah": "SMKS PONCOL BANGKIT",
+  "program_keahlian": "Program Keahlian Rekayasa Perangkat Lunak (RPL)",
+  "judul": "SOAL UJIAN SEMESTER",
+  "mata_pelajaran": "Informatika (Dasar-Dasar HTML, CSS, dan JavaScript)",
+  "materi": "Dasar Pengembangan Web untuk Program Keahlian Non-Informatika",
+  "kelas": "X (Sepuluh) - AKL",
+  "alokasi_waktu": "90 Menit",
+  "jumlah_soal": "25 butir (Pilihan Ganda)",
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Kepanjangan dari HTML adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "HyperText Markup Language"
+        },
+        {
+          "label": "B",
+          "teks": "High Text Modern Language"
+        },
+        {
+          "label": "C",
+          "teks": "Hyperlink Text Management Language"
+        },
+        {
+          "label": "D",
+          "teks": "Home Tool Markup Language"
+        }
+      ]
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Untuk membuat sebuah paragraf teks dalam HTML, tag yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "<p>"
+        },
+        {
+          "label": "B",
+          "teks": "<par>"
+        },
+        {
+          "label": "C",
+          "teks": "<text>"
+        },
+        {
+          "label": "D",
+          "teks": "<line>"
+        }
+      ]
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Tag utama yang membungkus sebuah tabel laporan keuangan sederhana pada HTML adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "<table>"
+        },
+        {
+          "label": "B",
+          "teks": "<list>"
+        },
+        {
+          "label": "C",
+          "teks": "<grid>"
+        },
+        {
+          "label": "D",
+          "teks": "<form>"
+        }
+      ]
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Untuk membuat baris pada sebuah tabel HTML, tag yang tepat digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "<tr>"
+        },
+        {
+          "label": "B",
+          "teks": "<td>"
+        },
+        {
+          "label": "C",
+          "teks": "<th>"
+        },
+        {
+          "label": "D",
+          "teks": "<row>"
+        }
+      ]
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Agar teks tampil tebal, properti CSS yang digunakan untuk mengatur ketebalan huruf adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "font-weight"
+        },
+        {
+          "label": "B",
+          "teks": "font-style"
+        },
+        {
+          "label": "C",
+          "teks": "text-decoration"
+        },
+        {
+          "label": "D",
+          "teks": "line-height"
+        }
+      ]
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Teknik menuliskan CSS langsung pada atribut style di dalam sebuah tag HTML dikenal dengan istilah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Inline CSS"
+        },
+        {
+          "label": "B",
+          "teks": "Internal CSS"
+        },
+        {
+          "label": "C",
+          "teks": "External CSS"
+        },
+        {
+          "label": "D",
+          "teks": "Embedded CSS"
+        }
+      ]
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Untuk menyimpan angka seperti total nominal transaksi, tipe data JavaScript yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Number"
+        },
+        {
+          "label": "B",
+          "teks": "String"
+        },
+        {
+          "label": "C",
+          "teks": "Boolean"
+        },
+        {
+          "label": "D",
+          "teks": "Array"
+        }
+      ]
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Operator perbandingan JavaScript yang disarankan untuk membandingkan dua nilai sekaligus tipe datanya adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "==="
+        },
+        {
+          "label": "B",
+          "teks": "=="
+        },
+        {
+          "label": "C",
+          "teks": "="
+        },
+        {
+          "label": "D",
+          "teks": "!="
+        }
+      ]
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Kegunaan dari fungsi document.getElementById() pada JavaScript adalah untuk...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Memilih satu elemen HTML berdasarkan id-nya"
+        },
+        {
+          "label": "B",
+          "teks": "Menghapus sebuah elemen HTML"
+        },
+        {
+          "label": "C",
+          "teks": "Membuat elemen HTML baru"
+        },
+        {
+          "label": "D",
+          "teks": "Mengubah warna latar halaman"
+        }
+      ]
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Untuk memberikan identitas unik pada sebuah elemen HTML, atribut yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "id"
+        },
+        {
+          "label": "B",
+          "teks": "class"
+        },
+        {
+          "label": "C",
+          "teks": "name"
+        },
+        {
+          "label": "D",
+          "teks": "type"
+        }
+      ]
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Jarak antara isi elemen dengan garis border di bagian dalam elemen diatur menggunakan properti CSS...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "padding"
+        },
+        {
+          "label": "B",
+          "teks": "margin"
+        },
+        {
+          "label": "C",
+          "teks": "border"
+        },
+        {
+          "label": "D",
+          "teks": "gap"
+        }
+      ]
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Untuk membuat sebuah form input data, misalnya form pencatatan transaksi, tag HTML yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "<form>"
+        },
+        {
+          "label": "B",
+          "teks": "<input-group>"
+        },
+        {
+          "label": "C",
+          "teks": "<data>"
+        },
+        {
+          "label": "D",
+          "teks": "<record>"
+        }
+      ]
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Format dasar dari perulangan for pada JavaScript yang digunakan untuk menjumlahkan data secara berulang adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "for (inisialisasi; kondisi; perubahan) { }"
+        },
+        {
+          "label": "B",
+          "teks": "for (kondisi) { }"
+        },
+        {
+          "label": "C",
+          "teks": "for { kondisi; perubahan }"
+        },
+        {
+          "label": "D",
+          "teks": "for [inisialisasi, kondisi]"
+        }
+      ]
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Sebuah tabel HTML menampilkan laporan keuangan sederhana dengan header berupa \"Tanggal\", \"Keterangan\", dan \"Nominal\". Tag yang tepat untuk menuliskan header tersebut adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "<td>"
+        },
+        {
+          "label": "B",
+          "teks": "<tr>"
+        },
+        {
+          "label": "C",
+          "teks": "<th>"
+        },
+        {
+          "label": "D",
+          "teks": "<table>"
+        }
+      ]
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Cermati potongan kode berikut ini. Selector CSS yang paling tepat digunakan untuk memberi gaya pada elemen tersebut adalah...\n<div id=\"total\">Rp 0</div>",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": ".total { }"
+        },
+        {
+          "label": "B",
+          "teks": "total { }"
+        },
+        {
+          "label": "C",
+          "teks": "#total { }"
+        },
+        {
+          "label": "D",
+          "teks": "*total { }"
+        }
+      ]
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Kolom input \"Nominal Transaksi\" pada sebuah form pencatatan hanya diperbolehkan diisi dengan angka. Atribut type pada tag <input> yang paling sesuai digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "type=\"text\""
+        },
+        {
+          "label": "B",
+          "teks": "type=\"email\""
+        },
+        {
+          "label": "C",
+          "teks": "type=\"number\""
+        },
+        {
+          "label": "D",
+          "teks": "type=\"checkbox\""
+        }
+      ]
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Amati kode JavaScript berikut ini. Output yang akan muncul di console adalah...\nlet saldo = 500000;\nlet biayaAdmin = 5000;\nlet saldoAkhir = saldo - biayaAdmin;\nconsole.log(saldoAkhir);",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "505000"
+        },
+        {
+          "label": "B",
+          "teks": "500000"
+        },
+        {
+          "label": "C",
+          "teks": "495000"
+        },
+        {
+          "label": "D",
+          "teks": "5000"
+        }
+      ]
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Sebuah aplikasi pencatatan kas kecil membutuhkan tampilan total pemasukan yang otomatis diperbarui setiap kali ada data baru, tanpa perlu me-reload halaman. Bahasa yang paling tepat digunakan untuk mewujudkan fitur tersebut adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "HTML, karena mengatur struktur data"
+        },
+        {
+          "label": "B",
+          "teks": "CSS, karena mengatur tampilan angka"
+        },
+        {
+          "label": "C",
+          "teks": "JavaScript, karena dapat mengubah isi halaman secara dinamis tanpa reload"
+        },
+        {
+          "label": "D",
+          "teks": "Semua bahasa memiliki peran yang sama untuk fitur ini"
+        }
+      ]
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Perhatikan potongan kode berikut ini. Bentuk penulisan kode tersebut dikenal dengan istilah...\nlet status = saldo >= 0 ? 'Aman' : 'Minus';",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Perulangan for"
+        },
+        {
+          "label": "B",
+          "teks": "Switch case"
+        },
+        {
+          "label": "C",
+          "teks": "Ternary (bentuk singkat if-else)"
+        },
+        {
+          "label": "D",
+          "teks": "Function declaration"
+        }
+      ]
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Cermati kode JavaScript berikut ini. Nilai total yang akan dicetak adalah...\nlet transaksi = [50000, -20000, 30000, -10000];\nlet total = transaksi.reduce((jumlah, n) => jumlah + n, 0);\nconsole.log(total);",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "40000"
+        },
+        {
+          "label": "B",
+          "teks": "50000"
+        },
+        {
+          "label": "C",
+          "teks": "60000"
+        },
+        {
+          "label": "D",
+          "teks": "110000"
+        }
+      ]
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Amati potongan kode tabel berikut ini. Banyaknya baris (<tr>) yang ada pada tabel tersebut adalah...\n<table>\n<tr><th>Tanggal</th><th>Nominal</th></tr>\n<tr><td>1 Sept</td><td>50000</td></tr>\n</table>",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "1"
+        },
+        {
+          "label": "B",
+          "teks": "2"
+        },
+        {
+          "label": "C",
+          "teks": "3"
+        },
+        {
+          "label": "D",
+          "teks": "4"
+        }
+      ]
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Sebuah kotak ringkasan saldo diatur dengan width 300px, padding 15px pada setiap sisi, serta border 5px, tanpa menerapkan box-sizing: border-box. Lebar total kotak tersebut yang tampil pada layar adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "300px"
+        },
+        {
+          "label": "B",
+          "teks": "340px"
+        },
+        {
+          "label": "C",
+          "teks": "315px"
+        },
+        {
+          "label": "D",
+          "teks": "330px"
+        }
+      ]
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Cermati kode berikut ini. Secara berurutan, output dari kedua baris kode tersebut adalah...\nlet nilai = \"100\";\nlet hasil = Number(nilai) + 50;\nconsole.log(hasil);\nconsole.log(typeof hasil);",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "\"10050\", \"string\""
+        },
+        {
+          "label": "B",
+          "teks": "150, \"number\""
+        },
+        {
+          "label": "C",
+          "teks": "100, \"string\""
+        },
+        {
+          "label": "D",
+          "teks": "NaN, \"number\""
+        }
+      ]
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Sebuah form pencatatan transaksi memiliki elemen <input type=\"number\" id=\"nominal\"> yang nilainya diambil menggunakan kode berikut. Secara default, tipe data dari nilai yang dihasilkan kode tersebut adalah...\nlet nominal = document.getElementById('nominal').value;",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Number"
+        },
+        {
+          "label": "B",
+          "teks": "String"
+        },
+        {
+          "label": "C",
+          "teks": "Boolean"
+        },
+        {
+          "label": "D",
+          "teks": "Object"
+        }
+      ]
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Pada aplikasi kas kecil, tombol \"Hitung Total\" harus menampilkan jumlah klik setiap kali ditekan. Potongan kode JavaScript yang tepat untuk mewujudkan hal tersebut adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "let jumlah = 0; tombol.textContent = jumlah + 1;"
+        },
+        {
+          "label": "B",
+          "teks": "let jumlah = 0; tombol.addEventListener('click', function () { jumlah++; tombol.textContent = 'Dihitung: ' + jumlah + ' kali'; });"
+        },
+        {
+          "label": "C",
+          "teks": "let jumlah = 0; tombol.onclick = jumlah++;"
+        },
+        {
+          "label": "D",
+          "teks": "function jumlah() { return tombol.click; }"
+        }
+      ]
+    }
+  ]
+}

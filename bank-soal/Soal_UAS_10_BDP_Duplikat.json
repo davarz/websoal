@@ -1,0 +1,562 @@
+{
+  "sekolah": "SMKS PONCOL BANGKIT",
+  "program_keahlian": "Program Keahlian Rekayasa Perangkat Lunak (RPL)",
+  "judul": "SOAL UJIAN SEMESTER",
+  "mata_pelajaran": "Informatika (Dasar-Dasar HTML, CSS, dan JavaScript)",
+  "materi": "Dasar Pengembangan Web untuk Program Keahlian Non-Informatika",
+  "kelas": "X (Sepuluh) - BDP",
+  "alokasi_waktu": "90 Menit",
+  "jumlah_soal": "25 butir (Pilihan Ganda)",
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Istilah untuk bahasa markup yang digunakan menyusun struktur sebuah halaman web adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "HTML"
+        },
+        {
+          "label": "B",
+          "teks": "CSS"
+        },
+        {
+          "label": "C",
+          "teks": "JavaScript"
+        },
+        {
+          "label": "D",
+          "teks": "PHP"
+        }
+      ]
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Untuk membuat judul utama atau heading terbesar pada sebuah halaman, tag HTML yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "<h1>"
+        },
+        {
+          "label": "B",
+          "teks": "<h6>"
+        },
+        {
+          "label": "C",
+          "teks": "<p>"
+        },
+        {
+          "label": "D",
+          "teks": "<title>"
+        }
+      ]
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Tampilan, warna, dan tata letak sebuah halaman web diatur menggunakan bahasa yang disebut...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "CSS"
+        },
+        {
+          "label": "B",
+          "teks": "HTML"
+        },
+        {
+          "label": "C",
+          "teks": "SQL"
+        },
+        {
+          "label": "D",
+          "teks": "JSON"
+        }
+      ]
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Gambar pada sebuah halaman web ditampilkan menggunakan tag HTML...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "<img>"
+        },
+        {
+          "label": "B",
+          "teks": "<picture-tag>"
+        },
+        {
+          "label": "C",
+          "teks": "<src>"
+        },
+        {
+          "label": "D",
+          "teks": "<image>"
+        }
+      ]
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Untuk memberikan teks alternatif pada gambar yang penting bagi aksesibilitas, atribut HTML yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "alt"
+        },
+        {
+          "label": "B",
+          "teks": "src"
+        },
+        {
+          "label": "C",
+          "teks": "href"
+        },
+        {
+          "label": "D",
+          "teks": "title"
+        }
+      ]
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Untuk memilih elemen berdasarkan atribut class-nya, selector CSS menggunakan tanda...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Titik (.)"
+        },
+        {
+          "label": "B",
+          "teks": "Pagar (#)"
+        },
+        {
+          "label": "C",
+          "teks": "Bintang (*)"
+        },
+        {
+          "label": "D",
+          "teks": "Garis miring (/)"
+        }
+      ]
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Warna sebuah teks diatur menggunakan properti CSS yang disebut...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "color"
+        },
+        {
+          "label": "B",
+          "teks": "background"
+        },
+        {
+          "label": "C",
+          "teks": "font-family"
+        },
+        {
+          "label": "D",
+          "teks": "border"
+        }
+      ]
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Agar sebuah halaman web menjadi interaktif dan dinamis, misalnya dapat merespons klik tombol, bahasa pemrograman yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "JavaScript"
+        },
+        {
+          "label": "B",
+          "teks": "HTML"
+        },
+        {
+          "label": "C",
+          "teks": "CSS"
+        },
+        {
+          "label": "D",
+          "teks": "XML"
+        }
+      ]
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Dalam JavaScript modern, kata kunci yang disarankan untuk mendeklarasikan variabel yang nilainya bisa berubah adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "let"
+        },
+        {
+          "label": "B",
+          "teks": "var"
+        },
+        {
+          "label": "C",
+          "teks": "const"
+        },
+        {
+          "label": "D",
+          "teks": "int"
+        }
+      ]
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Untuk menampilkan output ke Console browser guna memeriksa jalannya kode, fungsi JavaScript yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "console.log()"
+        },
+        {
+          "label": "B",
+          "teks": "alert()"
+        },
+        {
+          "label": "C",
+          "teks": "document.write()"
+        },
+        {
+          "label": "D",
+          "teks": "print()"
+        }
+      ]
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "File CSS eksternal paling disarankan dihubungkan ke dokumen HTML dengan menggunakan tag...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "<link>"
+        },
+        {
+          "label": "B",
+          "teks": "<style>"
+        },
+        {
+          "label": "C",
+          "teks": "<css>"
+        },
+        {
+          "label": "D",
+          "teks": "<script>"
+        }
+      ]
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Untuk membuat daftar tidak berurutan (bullet list), tag HTML yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "<ul>"
+        },
+        {
+          "label": "B",
+          "teks": "<ol>"
+        },
+        {
+          "label": "C",
+          "teks": "<li>"
+        },
+        {
+          "label": "D",
+          "teks": "<dl>"
+        }
+      ]
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Ketika sebuah elemen, misalnya tombol, diklik oleh pengguna, event JavaScript yang terjadi disebut...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "click"
+        },
+        {
+          "label": "B",
+          "teks": "hover"
+        },
+        {
+          "label": "C",
+          "teks": "load"
+        },
+        {
+          "label": "D",
+          "teks": "submit"
+        }
+      ]
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Sebuah toko online hendak membuat tombol \"Beli Sekarang\" dengan tampilan berwarna hijau, teks putih, dan sudut membulat. Kombinasi properti CSS yang paling tepat digunakan untuk itu adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "color, font-size, dan text-align"
+        },
+        {
+          "label": "B",
+          "teks": "margin, padding, dan display"
+        },
+        {
+          "label": "C",
+          "teks": "background-color, color, dan border-radius"
+        },
+        {
+          "label": "D",
+          "teks": "position, top, dan left"
+        }
+      ]
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Cermati potongan kode berikut ini. Selector CSS yang paling sesuai untuk memberi gaya pada elemen tersebut adalah...\n<p class=\"promo\">Diskon 50%!</p>",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "p { }"
+        },
+        {
+          "label": "B",
+          "teks": "#promo { }"
+        },
+        {
+          "label": "C",
+          "teks": ".promo { }"
+        },
+        {
+          "label": "D",
+          "teks": "promo { }"
+        }
+      ]
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Ketika mengembangkan sebuah landing page produk, urutan prioritas CSS mulai dari yang paling lemah hingga paling kuat adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "ID selector, class selector, element selector, inline style"
+        },
+        {
+          "label": "B",
+          "teks": "Inline style, !important, ID selector, class selector"
+        },
+        {
+          "label": "C",
+          "teks": "Element selector, class selector, ID selector, inline style"
+        },
+        {
+          "label": "D",
+          "teks": "Class selector, element selector, inline style, ID selector"
+        }
+      ]
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Sebuah form pendaftaran member toko online harus memastikan kolom email telah diisi sebelum data dikirim. Bahasa yang paling tepat digunakan untuk melakukan validasi tersebut adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "HTML, karena HTML dapat memvalidasi input"
+        },
+        {
+          "label": "B",
+          "teks": "CSS, karena CSS mengatur tampilan form"
+        },
+        {
+          "label": "C",
+          "teks": "JavaScript, karena dapat menjalankan logika pengecekan sebelum data dikirim"
+        },
+        {
+          "label": "D",
+          "teks": "Tidak perlu validasi karena server akan otomatis menangani"
+        }
+      ]
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Amati potongan kode berikut ini. Setelah kode tersebut dijalankan, nilai variabel diskon yang dihasilkan adalah...\nlet harga = 50000;\nlet diskon = harga >= 100000 ? 0.1 : 0;",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "0.1"
+        },
+        {
+          "label": "B",
+          "teks": "50000"
+        },
+        {
+          "label": "C",
+          "teks": "0"
+        },
+        {
+          "label": "D",
+          "teks": "100000"
+        }
+      ]
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Sebuah elemen <div id=\"header\"> akan dipilih lalu isi teksnya diubah menjadi \"Toko Online Kami\" menggunakan JavaScript. Penulisan kode yang tepat untuk melakukan hal tersebut adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "document.getElementById('header').style = 'Toko Online Kami';"
+        },
+        {
+          "label": "B",
+          "teks": "document.querySelector('header').src = 'Toko Online Kami';"
+        },
+        {
+          "label": "C",
+          "teks": "document.getElementById('header').textContent = 'Toko Online Kami';"
+        },
+        {
+          "label": "D",
+          "teks": "document.header.value = 'Toko Online Kami';"
+        }
+      ]
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Cermati kode berikut ini. Apabila terdapat dua aturan CSS, yaitu .kotak { color: blue; } dan #kotak1 { color: red; }, yang ditulis dalam satu file yang sama, maka warna teks \"Produk\" yang akan ditampilkan adalah...\n<div class=\"kotak\" id=\"kotak1\">Produk</div>",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Biru, karena class ditulis lebih dulu"
+        },
+        {
+          "label": "B",
+          "teks": "Merah, karena ID selector memiliki prioritas lebih tinggi daripada class selector"
+        },
+        {
+          "label": "C",
+          "teks": "Hitam, karena terjadi konflik dan browser mengabaikan keduanya"
+        },
+        {
+          "label": "D",
+          "teks": "Biru, karena urutan penulisan menentukan warna akhir"
+        }
+      ]
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Amati kode JavaScript berikut ini. Output yang akan tercetak pada console adalah...\nlet angka = [10, 25, 5, 40];\nlet hasil = angka.filter(n => n > 10);\nconsole.log(hasil.length);",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "4"
+        },
+        {
+          "label": "B",
+          "teks": "2"
+        },
+        {
+          "label": "C",
+          "teks": "1"
+        },
+        {
+          "label": "D",
+          "teks": "0"
+        }
+      ]
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Sebuah kotak (div) memiliki width 200px, padding 20px pada setiap sisi, serta border 5px, tanpa penerapan box-sizing: border-box. Lebar total kotak yang sesungguhnya tampil di layar adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "200px"
+        },
+        {
+          "label": "B",
+          "teks": "250px"
+        },
+        {
+          "label": "C",
+          "teks": "220px"
+        },
+        {
+          "label": "D",
+          "teks": "225px"
+        }
+      ]
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Cermati kode berikut ini. Output dari kedua baris kode tersebut, secara berurutan, adalah...\nlet x = \"5\";\nlet y = 5;\nconsole.log(x == y);\nconsole.log(x === y);",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "true, true"
+        },
+        {
+          "label": "B",
+          "teks": "true, false"
+        },
+        {
+          "label": "C",
+          "teks": "false, true"
+        },
+        {
+          "label": "D",
+          "teks": "false, false"
+        }
+      ]
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Amati potongan kode CSS berikut ini. Aturan tersebut akan diterapkan pada kondisi...\n@media (max-width: 600px) {\nbody { font-size: 14px; }\n}",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Lebar layar lebih dari 600px"
+        },
+        {
+          "label": "B",
+          "teks": "Lebar layar 600px atau lebih kecil, misalnya tampilan pada HP"
+        },
+        {
+          "label": "C",
+          "teks": "Tinggi layar kurang dari 600px"
+        },
+        {
+          "label": "D",
+          "teks": "Selalu berlaku di semua ukuran layar"
+        }
+      ]
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Pada halaman toko online, tombol \"Tambah ke Keranjang\" harus menampilkan jumlah klik setiap kali ditekan, dimulai dari angka 0. Potongan kode JavaScript yang tepat untuk mewujudkan fitur tersebut adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "let jumlah = 0; tombol.textContent = jumlah + 1;"
+        },
+        {
+          "label": "B",
+          "teks": "let jumlah = 0; tombol.addEventListener('click', function () { jumlah++; tombol.textContent = 'Klik: ' + jumlah; });"
+        },
+        {
+          "label": "C",
+          "teks": "let jumlah = 0; tombol.onclick = jumlah++;"
+        },
+        {
+          "label": "D",
+          "teks": "function jumlah() { return tombol.click; }"
+        }
+      ]
+    }
+  ]
+}

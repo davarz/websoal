@@ -1,0 +1,75 @@
+<!-- THESIS: Latihan santai berbasis kartu kuis untuk mobile, menjauh dari UI ujian kaku, dengan area tap besar dan aksi di jangkauan jempol.
+OWN-WORLD: Palet putih bersih dan violet cerah, kartu empuk bersudut membulat besar, tipografi Lexend yang sangat terbaca dengan interaksi responsif.
+STORY: Murid merasa rileks memilih paket dan menjawab soal tanpa tekanan, dengan fokus penuh pada satu soal per layar.
+FIRST VIEWPORT: Sapaan hangat di atas, diikuti daftar paket soal berupa kartu besar dengan ikon buku dan deskripsi lugas yang mengundang sentuhan.
+FORM: Code-first build, direction chosen: Santai dan cerah.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance. -->
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#F8FAFC">
+  <title>Ruang Soal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    
+    <section id="home-view" class="view">
+      <header class="app-header">
+        <h1>Mau latihan apa hari ini?</h1>
+        <p>Pilih paket soal dan mulai belajar santai dari HP-mu.</p>
+      </header>
+      <div id="package-list" class="package-list"></div>
+    </section>
+
+    <section id="quiz-view" class="view hidden">
+      <header class="quiz-top">
+        <button id="back-home" class="btn-icon" aria-label="Kembali"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <div class="progress-wrap">
+          <div class="progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
+          <span id="question-index" class="progress-text"></span>
+        </div>
+        <div style="width:40px"></div>
+      </header>
+      
+      <div class="quiz-scroll">
+        <div id="question-text" class="question-content"></div>
+        <div id="options-list" class="options-list"></div>
+      </div>
+      
+      <nav class="bottom-bar">
+        <button id="previous-button" class="btn-secondary" type="button">Sebelumnya</button>
+        <button id="next-button" class="btn-primary" type="button">Berikutnya</button>
+      </nav>
+    </section>
+
+    <section id="summary-view" class="view hidden">
+      <div class="summary-content">
+        <div class="done-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div>
+        <h1>Selesai!</h1>
+        <p>Jawabanmu sudah tersimpan di HP ini. Gunakan ringkasan berikut untuk meninjau kembali pekerjaanmu.</p>
+        
+        <div class="score-card">
+          <div class="score-row">
+            <span class="score-label">Mata Pelajaran</span>
+            <strong id="summary-title" class="score-value"></strong>
+          </div>
+          <div class="score-row">
+            <span class="score-label">Terjawab</span>
+            <strong id="summary-answered" class="score-value"></strong>
+          </div>
+        </div>
+      </div>
+      
+      <nav class="bottom-bar">
+        <button id="review-button" class="btn-secondary" type="button">Tinjau</button>
+        <button id="restart-button" class="btn-primary" type="button">Mulai Ulang</button>
+      </nav>
+    </section>
+    
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

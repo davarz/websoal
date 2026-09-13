@@ -1,0 +1,562 @@
+{
+  "sekolah": "SMKS PONCOL BANGKIT",
+  "program_keahlian": "Program Keahlian Rekayasa Perangkat Lunak (RPL)",
+  "judul": "SOAL UJIAN SEMESTER",
+  "mata_pelajaran": "Mapel Konsentrasi Keahlian",
+  "materi": "Pemrograman Perangkat Bergerak - Dart dan Flutter",
+  "kelas": "XI (Sebelas) - RPL",
+  "alokasi_waktu": "90 Menit",
+  "jumlah_soal": "25 butir (Pilihan Ganda)",
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Bahasa pemrograman Dart dikembangkan oleh...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Google"
+        },
+        {
+          "label": "B",
+          "teks": "Microsoft"
+        },
+        {
+          "label": "C",
+          "teks": "Apple"
+        },
+        {
+          "label": "D",
+          "teks": "Meta"
+        }
+      ]
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Untuk mendeklarasikan variabel yang tipe datanya menyesuaikan secara otomatis berdasarkan nilainya, kata kunci Dart yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "var"
+        },
+        {
+          "label": "B",
+          "teks": "int"
+        },
+        {
+          "label": "C",
+          "teks": "bool"
+        },
+        {
+          "label": "D",
+          "teks": "class"
+        }
+      ]
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Untuk menampilkan teks atau nilai ke layar (konsol), fungsi bawaan Dart yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "print()"
+        },
+        {
+          "label": "B",
+          "teks": "show()"
+        },
+        {
+          "label": "C",
+          "teks": "display()"
+        },
+        {
+          "label": "D",
+          "teks": "write()"
+        }
+      ]
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Titik awal (entry point) eksekusi setiap program Dart berada pada fungsi utama yang disebut...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "void main()"
+        },
+        {
+          "label": "B",
+          "teks": "void start()"
+        },
+        {
+          "label": "C",
+          "teks": "void run()"
+        },
+        {
+          "label": "D",
+          "teks": "void init()"
+        }
+      ]
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Untuk menyimpan nilai logika benar/salah, tipe data Dart yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "bool"
+        },
+        {
+          "label": "B",
+          "teks": "int"
+        },
+        {
+          "label": "C",
+          "teks": "double"
+        },
+        {
+          "label": "D",
+          "teks": "String"
+        }
+      ]
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Nama framework open-source buatan Google yang memakai bahasa Dart untuk membangun aplikasi mobile, web, dan desktop dari satu basis kode adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Flutter"
+        },
+        {
+          "label": "B",
+          "teks": "React Native"
+        },
+        {
+          "label": "C",
+          "teks": "Xamarin"
+        },
+        {
+          "label": "D",
+          "teks": "Ionic"
+        }
+      ]
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Editor kode online yang dapat digunakan untuk mencoba menjalankan program Dart sederhana tanpa perlu instalasi disebut...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "DartPad"
+        },
+        {
+          "label": "B",
+          "teks": "CodePen"
+        },
+        {
+          "label": "C",
+          "teks": "JSFiddle"
+        },
+        {
+          "label": "D",
+          "teks": "Replit"
+        }
+      ]
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Pada umumnya, setiap statement dalam Dart diakhiri dengan tanda...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Titik koma ( ; )"
+        },
+        {
+          "label": "B",
+          "teks": "Titik dua ( : )"
+        },
+        {
+          "label": "C",
+          "teks": "Koma ( , )"
+        },
+        {
+          "label": "D",
+          "teks": "Titik ( . )"
+        }
+      ]
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Titik masuk (entry point) sebuah aplikasi Flutter berada pada file utama yang bernama...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "lib/main.dart"
+        },
+        {
+          "label": "B",
+          "teks": "pubspec.yaml"
+        },
+        {
+          "label": "C",
+          "teks": "android/build.gradle"
+        },
+        {
+          "label": "D",
+          "teks": "test/widget_test.dart"
+        }
+      ]
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Pada Flutter, hampir seluruh elemen tampilan seperti teks, tombol, gambar, dan layout disebut sebagai...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Widget"
+        },
+        {
+          "label": "B",
+          "teks": "Module"
+        },
+        {
+          "label": "C",
+          "teks": "Component-X"
+        },
+        {
+          "label": "D",
+          "teks": "Fragment"
+        }
+      ]
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Untuk menyusun beberapa widget secara vertikal (bertumpuk ke bawah), widget Flutter yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Column"
+        },
+        {
+          "label": "B",
+          "teks": "Row"
+        },
+        {
+          "label": "C",
+          "teks": "Stack"
+        },
+        {
+          "label": "D",
+          "teks": "Container"
+        }
+      ]
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Untuk memeriksa kelengkapan instalasi Flutter pada sebuah komputer, perintah terminal yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "flutter doctor"
+        },
+        {
+          "label": "B",
+          "teks": "flutter check"
+        },
+        {
+          "label": "C",
+          "teks": "flutter install"
+        },
+        {
+          "label": "D",
+          "teks": "flutter verify"
+        }
+      ]
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Berkas konfigurasi proyek Flutter yang memuat nama aplikasi, dependensi (package), serta aset disebut...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "pubspec.yaml"
+        },
+        {
+          "label": "B",
+          "teks": "main.dart"
+        },
+        {
+          "label": "C",
+          "teks": "config.json"
+        },
+        {
+          "label": "D",
+          "teks": "settings.gradle"
+        }
+      ]
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Hal mendasar yang membedakan Dart dari Flutter adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Dart adalah framework, sedangkan Flutter adalah bahasa pemrograman"
+        },
+        {
+          "label": "B",
+          "teks": "Keduanya adalah hal yang sama persis"
+        },
+        {
+          "label": "C",
+          "teks": "Dart adalah bahasa pemrograman untuk menulis logika, sedangkan Flutter adalah framework yang menyediakan widget siap pakai untuk membangun UI"
+        },
+        {
+          "label": "D",
+          "teks": "Dart hanya digunakan untuk web, sedangkan Flutter hanya untuk mobile"
+        }
+      ]
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Cermati kode Dart berikut ini. Fitur Dart yang dipakai untuk menyisipkan nilai variabel langsung ke dalam teks pada kode tersebut dinamakan...\nString nama = \"Rian\";\nint kelas = 11;\nprint(\"Halo, $nama! Kelas: $kelas\");",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Konkatenasi manual"
+        },
+        {
+          "label": "B",
+          "teks": "Type casting"
+        },
+        {
+          "label": "C",
+          "teks": "String interpolation"
+        },
+        {
+          "label": "D",
+          "teks": "Null safety"
+        }
+      ]
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Untuk membuat tampilan statis seperti logo atau teks tetap yang tidak berubah, widget Flutter yang tepat digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "StatefulWidget, karena lebih fleksibel"
+        },
+        {
+          "label": "B",
+          "teks": "Widget apa saja, karena tidak ada perbedaan fungsi"
+        },
+        {
+          "label": "C",
+          "teks": "StatelessWidget, karena tidak memiliki state yang berubah setelah dibangun"
+        },
+        {
+          "label": "D",
+          "teks": "MaterialApp, karena merupakan widget utama"
+        }
+      ]
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Fitur Flutter yang membuat perubahan kode dapat langsung terlihat di layar tanpa perlu me-restart aplikasi dari awal dikenal dengan istilah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Static Build"
+        },
+        {
+          "label": "B",
+          "teks": "Cold Start"
+        },
+        {
+          "label": "C",
+          "teks": "Hot Reload"
+        },
+        {
+          "label": "D",
+          "teks": "Auto Compile"
+        }
+      ]
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Sebuah tombol counter pada aplikasi Flutter harus memperbarui tampilan angka setiap kali ditekan. Widget yang tepat digunakan agar tampilan dapat diperbarui secara otomatis adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "StatelessWidget, karena lebih ringan"
+        },
+        {
+          "label": "B",
+          "teks": "Container, karena dapat menyimpan angka"
+        },
+        {
+          "label": "C",
+          "teks": "StatefulWidget, karena memiliki state yang dapat berubah melalui setState()"
+        },
+        {
+          "label": "D",
+          "teks": "Text, karena hanya menampilkan teks"
+        }
+      ]
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Kegunaan fitur null safety pada Dart adalah untuk...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Mempercepat proses kompilasi program"
+        },
+        {
+          "label": "B",
+          "teks": "Mengubah semua variabel menjadi tipe data teks"
+        },
+        {
+          "label": "C",
+          "teks": "Mencegah error akibat variabel non-nullable yang bernilai kosong (null) secara tidak sengaja"
+        },
+        {
+          "label": "D",
+          "teks": "Menghapus kebutuhan penulisan tipe data"
+        }
+      ]
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Amati kode Dart berikut ini. Output yang akan dicetak adalah...\nint a = 5;\nint b = 2;\nprint(a % b);",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "2"
+        },
+        {
+          "label": "B",
+          "teks": "1"
+        },
+        {
+          "label": "C",
+          "teks": "2.5"
+        },
+        {
+          "label": "D",
+          "teks": "0"
+        }
+      ]
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Cermati struktur kode Flutter berikut ini. Susunan tampilan yang dihasilkan oleh kode tersebut adalah...\nColumn(\nchildren: [\nText('Nama: Budi'),\nRow(\nchildren: [\nIcon(Icons.star),\nIcon(Icons.favorite),\n],\n),\n],\n)",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Semua elemen tersusun sejajar secara horizontal"
+        },
+        {
+          "label": "B",
+          "teks": "Teks \"Nama: Budi\" tampil di atas, kemudian di bawahnya dua ikon tersusun sejajar secara horizontal"
+        },
+        {
+          "label": "C",
+          "teks": "Dua ikon tampil di atas, kemudian teks \"Nama: Budi\" di bawahnya"
+        },
+        {
+          "label": "D",
+          "teks": "Semua elemen tumpang tindih pada posisi yang sama"
+        }
+      ]
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Amati kode berikut ini. Apabila tombol ditekan sebanyak 3 kali, nilai _jumlah yang akan muncul pada layar adalah...\nclass _CounterPageState extends State<CounterPage> {\nint _jumlah = 0;\nvoid _tambah() {\nsetState(() { _jumlah++; });\n}\n...\n}",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "0"
+        },
+        {
+          "label": "B",
+          "teks": "3"
+        },
+        {
+          "label": "C",
+          "teks": "1"
+        },
+        {
+          "label": "D",
+          "teks": "Tidak berubah karena setState() tidak memengaruhi tampilan"
+        }
+      ]
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Cermati kode Dart berikut ini. Tipe data dari hasil penjumlahan x + y pada kode tersebut adalah...\nvar x = 10;\nvar y = 3.5;\nprint(x + y);",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "int"
+        },
+        {
+          "label": "B",
+          "teks": "double"
+        },
+        {
+          "label": "C",
+          "teks": "String"
+        },
+        {
+          "label": "D",
+          "teks": "Error, karena tidak bisa menjumlahkan int dan double"
+        }
+      ]
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Amati potongan kode berikut ini. Jika nilai variabel aktif diganti menjadi false, maka output yang akan dicetak adalah...\nbool aktif = true;\nif (aktif) {\nprint(\"Status: Aktif\");\n} else {\nprint(\"Status: Tidak Aktif\");\n}",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Status: Aktif"
+        },
+        {
+          "label": "B",
+          "teks": "Status: Tidak Aktif"
+        },
+        {
+          "label": "C",
+          "teks": "Tidak ada output karena terjadi error"
+        },
+        {
+          "label": "D",
+          "teks": "Status: Aktif dan Status: Tidak Aktif keduanya tercetak"
+        }
+      ]
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Sebuah tim pengembang hendak membangun aplikasi yang bisa berjalan di Android maupun iOS hanya dengan satu basis kode, serta memiliki performa mendekati aplikasi native karena dikompilasi langsung ke kode mesin. Pendekatan dan framework yang paling sesuai untuk kebutuhan tersebut adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Native development menggunakan Kotlin untuk Android dan Swift untuk iOS secara terpisah"
+        },
+        {
+          "label": "B",
+          "teks": "Cross-platform development menggunakan Flutter, karena satu basis kode dan performa mendekati native"
+        },
+        {
+          "label": "C",
+          "teks": "Membuat dua aplikasi terpisah agar masing-masing platform lebih optimal"
+        },
+        {
+          "label": "D",
+          "teks": "Menggunakan HTML dan CSS saja tanpa framework tambahan"
+        }
+      ]
+    }
+  ]
+}

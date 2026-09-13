@@ -1,0 +1,562 @@
+{
+  "sekolah": "SMKS PONCOL BANGKIT",
+  "program_keahlian": "Program Keahlian Rekayasa Perangkat Lunak (RPL)",
+  "judul": "SOAL UJIAN SEMESTER",
+  "mata_pelajaran": "Dasar-Dasar Pemrograman Komputer",
+  "materi": "Pemrograman Terstruktur - Struktur Kontrol Perulangan (Bahasa C)",
+  "kelas": "X (Sepuluh) - RPL",
+  "alokasi_waktu": "90 Menit",
+  "jumlah_soal": "25 butir (Pilihan Ganda)",
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Istilah untuk struktur kontrol yang digunakan menjalankan suatu blok kode secara berulang adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Perulangan (looping)"
+        },
+        {
+          "label": "B",
+          "teks": "Percabangan (branching)"
+        },
+        {
+          "label": "C",
+          "teks": "Deklarasi variabel"
+        },
+        {
+          "label": "D",
+          "teks": "Fungsi (function)"
+        }
+      ]
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Tiga jenis struktur perulangan utama yang disediakan bahasa C adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "for, while, dan do-while"
+        },
+        {
+          "label": "B",
+          "teks": "if, else, dan switch"
+        },
+        {
+          "label": "C",
+          "teks": "int, float, dan char"
+        },
+        {
+          "label": "D",
+          "teks": "printf, scanf, dan return"
+        }
+      ]
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Dalam struktur for (inisialisasi; kondisi; perubahan), bagian inisialisasi akan dieksekusi...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Sekali di awal sebelum perulangan dimulai"
+        },
+        {
+          "label": "B",
+          "teks": "Setiap akhir putaran"
+        },
+        {
+          "label": "C",
+          "teks": "Setelah kondisi bernilai salah"
+        },
+        {
+          "label": "D",
+          "teks": "Dua kali selama program berjalan"
+        }
+      ]
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Untuk mencetak atau menampilkan output ke layar, fungsi bawaan bahasa C yang digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "printf()"
+        },
+        {
+          "label": "B",
+          "teks": "scanf()"
+        },
+        {
+          "label": "C",
+          "teks": "main()"
+        },
+        {
+          "label": "D",
+          "teks": "return()"
+        }
+      ]
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Dalam struktur while (kondisi) { ... }, pengecekan kondisi dilakukan...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Sebelum blok kode dijalankan"
+        },
+        {
+          "label": "B",
+          "teks": "Setelah blok kode dijalankan"
+        },
+        {
+          "label": "C",
+          "teks": "Di tengah-tengah eksekusi blok kode"
+        },
+        {
+          "label": "D",
+          "teks": "Tidak pernah diperiksa"
+        }
+      ]
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Hal yang membedakan struktur do-while dari while adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Blok kode dijalankan minimal satu kali sebelum kondisi diperiksa"
+        },
+        {
+          "label": "B",
+          "teks": "Kondisi selalu diperiksa sebelum blok kode dijalankan"
+        },
+        {
+          "label": "C",
+          "teks": "Tidak memerlukan tanda kurung kurawal"
+        },
+        {
+          "label": "D",
+          "teks": "Hanya bisa digunakan untuk mencetak angka genap"
+        }
+      ]
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Kegunaan operator i++ dalam bahasa C adalah untuk...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Menambah nilai variabel i sebesar 1"
+        },
+        {
+          "label": "B",
+          "teks": "Mengurangi nilai variabel i sebesar 1"
+        },
+        {
+          "label": "C",
+          "teks": "Mengalikan nilai variabel i dengan 1"
+        },
+        {
+          "label": "D",
+          "teks": "Membandingkan nilai variabel i"
+        }
+      ]
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Perulangan yang terus berjalan tanpa henti karena kondisinya selalu bernilai benar disebut...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Infinite loop"
+        },
+        {
+          "label": "B",
+          "teks": "Nested loop"
+        },
+        {
+          "label": "C",
+          "teks": "Dead loop"
+        },
+        {
+          "label": "D",
+          "teks": "Static loop"
+        }
+      ]
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Agar fungsi printf() dan scanf() dapat digunakan dalam program C, header file yang wajib disertakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "#include <stdio.h>"
+        },
+        {
+          "label": "B",
+          "teks": "#include <string.h>"
+        },
+        {
+          "label": "C",
+          "teks": "#include <math.h>"
+        },
+        {
+          "label": "D",
+          "teks": "#include <stdlib.h>"
+        }
+      ]
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Ketika jumlah pengulangan sudah diketahui sejak awal, struktur perulangan yang paling cocok digunakan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "for"
+        },
+        {
+          "label": "B",
+          "teks": "do-while"
+        },
+        {
+          "label": "C",
+          "teks": "if-else"
+        },
+        {
+          "label": "D",
+          "teks": "switch-case"
+        }
+      ]
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Dalam struktur for (inisialisasi; kondisi; perubahan), tanda titik koma (;) memiliki fungsi sebagai...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Pemisah antar bagian inisialisasi, kondisi, dan perubahan"
+        },
+        {
+          "label": "B",
+          "teks": "Penutup blok kode perulangan"
+        },
+        {
+          "label": "C",
+          "teks": "Tanda dimulainya komentar"
+        },
+        {
+          "label": "D",
+          "teks": "Operator penjumlahan"
+        }
+      ]
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Kegunaan fungsi scanf() dalam bahasa C adalah untuk...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Membaca/menerima input dari pengguna"
+        },
+        {
+          "label": "B",
+          "teks": "Menampilkan output ke layar"
+        },
+        {
+          "label": "C",
+          "teks": "Menghentikan program"
+        },
+        {
+          "label": "D",
+          "teks": "Mendeklarasikan variabel baru"
+        }
+      ]
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Nilai balik (return value) dari fungsi main() yang biasanya menandakan program berjalan tanpa masalah adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "0"
+        },
+        {
+          "label": "B",
+          "teks": "1"
+        },
+        {
+          "label": "C",
+          "teks": "-1"
+        },
+        {
+          "label": "D",
+          "teks": "NULL"
+        }
+      ]
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Cermati potongan kode berikut ini, kemudian tentukan output yang dihasilkan.\nfor (i = 1; i <= 5; i++) {\nprintf(\"%d \", i);\n}",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "1 2 3 4"
+        },
+        {
+          "label": "B",
+          "teks": "0 1 2 3 4"
+        },
+        {
+          "label": "C",
+          "teks": "1 2 3 4 5"
+        },
+        {
+          "label": "D",
+          "teks": "1 2 3 4 5 6"
+        }
+      ]
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Hal utama yang membedakan while dari do-while adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "while lebih cepat dijalankan dibandingkan do-while"
+        },
+        {
+          "label": "B",
+          "teks": "do-while tidak membutuhkan kondisi"
+        },
+        {
+          "label": "C",
+          "teks": "do-while pasti menjalankan blok kode minimal satu kali, sedangkan while bisa saja tidak menjalankan blok kode sama sekali"
+        },
+        {
+          "label": "D",
+          "teks": "while hanya bisa digunakan untuk bilangan genap"
+        }
+      ]
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Struktur perulangan manakah yang paling tepat digunakan untuk menampilkan menu program yang terus berjalan hingga pengguna memilih opsi keluar?",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "for, karena jumlah pengulangan sudah pasti"
+        },
+        {
+          "label": "B",
+          "teks": "while, karena kondisi diperiksa di awal"
+        },
+        {
+          "label": "C",
+          "teks": "do-while, karena menu harus tampil minimal satu kali sebelum pengguna memilih opsi keluar"
+        },
+        {
+          "label": "D",
+          "teks": "Semua struktur sama-sama tidak cocok"
+        }
+      ]
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Amati potongan kode berikut ini. Berapa kali kata \"Halo\" akan tercetak?\nint n = 0;\nwhile (n < 3) {\nprintf(\"Halo \");\nn++;\n}",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "1 kali"
+        },
+        {
+          "label": "B",
+          "teks": "2 kali"
+        },
+        {
+          "label": "C",
+          "teks": "3 kali"
+        },
+        {
+          "label": "D",
+          "teks": "4 kali"
+        }
+      ]
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Supaya sebuah perulangan for tidak berubah menjadi infinite loop, hal yang wajib diperhatikan adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Kondisi harus ditulis menggunakan operator logika"
+        },
+        {
+          "label": "B",
+          "teks": "Blok kode harus berisi minimal dua baris perintah"
+        },
+        {
+          "label": "C",
+          "teks": "Variabel penghitung (counter) harus diubah nilainya di dalam blok perulangan sehingga suatu saat kondisi menjadi salah"
+        },
+        {
+          "label": "D",
+          "teks": "Perulangan harus selalu dimulai dari angka 0"
+        }
+      ]
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Apabila sebuah perulangan for dituliskan for (i = 1; i <= 10; ) tanpa bagian perubahan, maka yang akan terjadi adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Program akan berhenti setelah satu kali perulangan"
+        },
+        {
+          "label": "B",
+          "teks": "Program akan menghasilkan error saat kompilasi"
+        },
+        {
+          "label": "C",
+          "teks": "Program berpotensi menjadi infinite loop karena nilai i tidak pernah bertambah"
+        },
+        {
+          "label": "D",
+          "teks": "Program otomatis menambahkan nilai i sebesar 1 secara default"
+        }
+      ]
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Cermati potongan kode berikut ini. Nilai total yang akan tercetak adalah...\nint total = 0;\nfor (int i = 1; i <= 5; i++) {\ntotal = total + i;\n}\nprintf(\"%d\", total);",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "10"
+        },
+        {
+          "label": "B",
+          "teks": "15"
+        },
+        {
+          "label": "C",
+          "teks": "20"
+        },
+        {
+          "label": "D",
+          "teks": "25"
+        }
+      ]
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Amati potongan kode berikut ini. Berapa banyak angka yang akan tercetak?\nint i = 10;\ndo {\nprintf(\"%d \", i);\ni = i - 2;\n} while (i > 0);",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "4 angka"
+        },
+        {
+          "label": "B",
+          "teks": "5 angka"
+        },
+        {
+          "label": "C",
+          "teks": "6 angka"
+        },
+        {
+          "label": "D",
+          "teks": "10 angka"
+        }
+      ]
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Apabila perulangan for (i = 1; i <= 10; i++) { printf(\"%d \", i); } ingin diubah menjadi bentuk while dengan hasil output yang sama persis, penulisan yang tepat adalah...",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "int i = 1; while (i < 10) { printf(\"%d \", i); i++; }"
+        },
+        {
+          "label": "B",
+          "teks": "int i = 1; while (i <= 10) { printf(\"%d \", i); i++; }"
+        },
+        {
+          "label": "C",
+          "teks": "int i = 0; while (i <= 10) { printf(\"%d \", i); i++; }"
+        },
+        {
+          "label": "D",
+          "teks": "int i = 1; while (i <= 10) { i++; printf(\"%d \", i); }"
+        }
+      ]
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Cermati potongan kode berikut ini. Setelah perulangan selesai dijalankan, nilai jumlahGenap yang dihasilkan adalah...\nint i = 1, jumlahGenap = 0;\nwhile (i <= 10) {\nif (i % 2 == 0) {\njumlahGenap++;\n}\ni++;\n}",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "4"
+        },
+        {
+          "label": "B",
+          "teks": "5"
+        },
+        {
+          "label": "C",
+          "teks": "6"
+        },
+        {
+          "label": "D",
+          "teks": "10"
+        }
+      ]
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Amati potongan kode berikut yang mengandung sebuah kesalahan logika. Dampak dari kesalahan tersebut adalah...\nfor (i = 1; i <= 10; i--) {\nprintf(\"%d \", i);\n}",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Program langsung berhenti tanpa mencetak apa pun"
+        },
+        {
+          "label": "B",
+          "teks": "Infinite loop karena nilai i terus berkurang sehingga kondisi i <= 10 selalu benar"
+        },
+        {
+          "label": "C",
+          "teks": "Program hanya mencetak angka 1 saja"
+        },
+        {
+          "label": "D",
+          "teks": "Program mencetak angka 1 sampai 10 dengan benar"
+        }
+      ]
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Cermati potongan kode berikut ini. Mengingat continue berfungsi melewati sisa blok kode pada iterasi tersebut dan melanjutkan ke iterasi berikutnya, maka nilai total setelah perulangan berakhir adalah...\nint i, total = 0;\nfor (i = 1; i <= 5; i++) {\nif (i == 3) { continue; }\ntotal += i;\n}",
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "10"
+        },
+        {
+          "label": "B",
+          "teks": "12"
+        },
+        {
+          "label": "C",
+          "teks": "15"
+        },
+        {
+          "label": "D",
+          "teks": "9"
+        }
+      ]
+    }
+  ]
+}
