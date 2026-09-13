@@ -7,6 +7,8 @@ const files = [
 ];
 
 const state = { packages: [], active: null, index: 0, answers: [], review: false };
+const STORAGE_PREFIX = 'ruang-soal:';
+let examBelumSelesai = false;
 const $ = (id) => document.getElementById(id);
 const views = ['home-view', 'quiz-view', 'summary-view'];
 
@@ -59,11 +61,27 @@ function showView(id) {
   window.scrollTo(0, 0);
 }
 
+function getStorageKey() {
+  return `${STORAGE_PREFIX}${state.active.file}`;
+}
+
+function saveProgress() {
+  if (!state.active || state.review) return;
+  localStorage.setItem(getStorageKey(), JSON.stringify({
+    answers: state.answers,
+    currentIndex: state.index,
+    lastSaved: Date.now()
+  }));
+}
+
 function startQuiz(packageIndex, review = false) {
   state.active = state.packages[packageIndex];
-  state.index = 0;
   state.review = review;
-  state.answers = JSON.parse(localStorage.getItem(`ruang-soal:${state.active.file}`) || '[]');
+  const saved = JSON.parse(localStorage.getItem(getStorageKey()) || '{}');
+  state.answers = Array.isArray(saved) ? saved : Array.isArray(saved.answers) ? saved.answers : [];
+  state.index = Number.isInteger(saved.currentIndex) ? saved.currentIndex : 0;
+  state.index = Math.min(Math.max(state.index, 0), state.active.soal.length - 1);
+  examBelumSelesai = !review;
   showView('quiz-view');
   renderQuestion();
 }
@@ -83,7 +101,7 @@ function renderQuestion() {
 
   $('options-list').innerHTML = item.opsi.map((option) => `
     <label class="opt-card">
-      <input type="radio" name="answer" value="${escapeHTML(option.label)}" ${state.answers[state.index] === option.label ? 'checked' : ''} ${state.review ? 'disabled' : ''}>
+      <input class="jawaban-input" type="radio" name="answer" data-soal-id="${item.nomor}" value="${escapeHTML(option.label)}" ${state.answers[state.index] === option.label ? 'checked' : ''} ${state.review ? 'disabled' : ''}>
       <div class="opt-box">${escapeHTML(option.label)}</div>
       <div class="opt-text">${escapeHTML(option.teks)}</div>
     </label>`).join('');
@@ -91,7 +109,7 @@ function renderQuestion() {
   document.querySelectorAll('input[name="answer"]').forEach((input) =>
     input.addEventListener('change', () => {
       state.answers[state.index] = input.value;
-      localStorage.setItem(`ruang-soal:${state.active.file}`, JSON.stringify(state.answers));
+      saveProgress();
     })
   );
   
@@ -100,15 +118,24 @@ function renderQuestion() {
 }
 
 function finishQuiz() {
+  examBelumSelesai = false;
   $('summary-title').textContent = state.active.mata_pelajaran;
   $('summary-answered').textContent = `${state.answers.filter(Boolean).length} / ${state.active.soal.length}`;
   showView('summary-view');
 }
 
-$('back-home').addEventListener('click', () => showView('home-view'));
-$('previous-button').addEventListener('click', () => { if (state.index > 0) { state.index--; renderQuestion(); window.scrollTo(0, 0); } });
-$('next-button').addEventListener('click', () => { if (state.index < state.active.soal.length - 1) { state.index++; renderQuestion(); window.scrollTo(0, 0); } else finishQuiz(); });
-$('restart-button').addEventListener('click', () => { localStorage.removeItem(`ruang-soal:${state.active.file}`); startQuiz(state.packages.indexOf(state.active)); });
+$('back-home').addEventListener('click', () => { examBelumSelesai = false; saveProgress(); showView('home-view'); });
+$('previous-button').addEventListener('click', () => { if (state.index > 0) { state.index--; saveProgress(); renderQuestion(); window.scrollTo(0, 0); } });
+$('next-button').addEventListener('click', () => { if (state.index < state.active.soal.length - 1) { state.index++; saveProgress(); renderQuestion(); window.scrollTo(0, 0); } else finishQuiz(); });
+$('restart-button').addEventListener('click', () => { localStorage.removeItem(getStorageKey()); startQuiz(state.packages.indexOf(state.active)); });
 $('review-button').addEventListener('click', () => startQuiz(state.packages.indexOf(state.active), true));
+
+window.addEventListener('beforeunload', (event) => {
+  if (examBelumSelesai) {
+    saveProgress();
+    event.preventDefault();
+    event.returnValue = '';
+  }
+});
 
 loadPackages();
