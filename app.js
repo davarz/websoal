@@ -31,13 +31,14 @@ async function loadPackages() {
   }
 }
 
+function getMapel(item) {
+  if (item.file.includes('10_AKL') || item.file.includes('10_BDP')) return 'MPP';
+  return 'Konsentrasi Keahlian';
+}
+
 function renderPackages() {
   $('package-list').innerHTML = state.packages.map((item, index) => {
-    const title = item.file.includes('10_AKL') || item.file.includes('10_BDP')
-      ? 'MPP'
-      : item.file.includes('10_RPL')
-        ? 'Konsentrasi Keahlian'
-        : item.mata_pelajaran;
+    const title = getMapel(item);
 
     return `
       <button class="pkg-card" type="button" data-package="${index}">
@@ -119,7 +120,7 @@ function renderQuestion() {
 
 function finishQuiz() {
   examBelumSelesai = false;
-  $('summary-title').textContent = state.active.mata_pelajaran;
+  $('summary-title').textContent = getMapel(state.active);
   $('summary-answered').textContent = `${state.answers.filter(Boolean).length} / ${state.active.soal.length}`;
   showView('summary-view');
 }
